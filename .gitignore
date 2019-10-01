@@ -338,3 +338,14 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+
+
+## User-specific files and folders:
+MDK/
+Workspace/
+
+*.csproj
+*.sln
+
+thumb.png
+!*/*/Ingame/thumb.png
