@@ -32,7 +32,7 @@ namespace IngameScript
 				lBuffer = new List<string>();
 
 				// Set up display:
-				gScreen.Font = "DEBUG";
+				gScreen.Font = "Debug";
 				gScreen.FontSize = gParent.Me.CubeGrid.GridSize == 2.5 ? 0.62f : 1.0f;
 				gScreen.FontColor = new Color(179, 237, 255);
 				gScreen.BackgroundColor = new Color(20, 20, 20);
