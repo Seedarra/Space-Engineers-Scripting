@@ -34,7 +34,7 @@ public Program()
 
 private readonly Stabilizer gStabilizer;
 
-public void Main(string argument, UpdateType updateSource)
+public void Main(string argument)
 {
 	if(argument == "stabilize")
 		Runtime.UpdateFrequency = gStabilizer.Switch() ? UpdateFrequency.Update10 : UpdateFrequency.Update100;
