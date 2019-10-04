@@ -1,9 +1,9 @@
-## Space Engineers - Battery
+# Space Engineers - Battery
 1.0.0
 
 Get power status of batteries: the amount of power stored (in MWh or percent), and the total capacity (in MWh).
 
-#### Public methods
+## Public methods
 Default constructor where `batteries` can be the name of a group, a single block, or `""` for all available blocks on the grid.
 ```C#
 Battery(Program parent, string batteries = "")

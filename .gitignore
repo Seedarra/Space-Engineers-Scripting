@@ -343,6 +343,7 @@ healthchecksdb
 ## User-specific files and folders:
 MDK/
 Workspace/
+.NEW
 
 *.csproj
 *.sln

@@ -1,10 +1,10 @@
-## Space Engineers - Reroute
+# Space Engineers - Reroute
 1.0.0
 
 This class mimics a console window and is purely aesthetic. It reroutes text written with `MyGridProgram.Echo()` from the programmable block's detail info area to the programmable block's display.<br>
 Have a look at [Program.cs](Program.cs) for an example on how to use this class.
 
-#### Public methods
+## Public methods
 Default constructor.
 ```C#
 Reroute(Program parent)

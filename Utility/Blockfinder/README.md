@@ -1,9 +1,9 @@
-## Space Engineers - Blockfinder
+# Space Engineers - Blockfinder
 1.0.0
 
 This class provides an easy way to find blocks by name, group, type or search term.<br>Each method of this class returns `true` if a block (or a list of blocks) on the same grid as the caller was found, and `false` otherwise.
 
-#### Public methods
+## Public methods
 Default constructor.
 ```C#
 Blockfinder(Program parent)

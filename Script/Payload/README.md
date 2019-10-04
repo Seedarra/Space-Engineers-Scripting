@@ -1,9 +1,9 @@
-## Space Engineers - Payload
+# Space Engineers - Payload
 1.0.0
 
 Get the amount of cargo in percent, kilogram or liters in the inventories of a given set of blocks.
 
-#### Public methods
+## Public methods
 Default constructor where `container` can be the name of a group, a single block, or `""` for all available blocks on the grid.
 ```C#
 Payload(Program parent, string container = "")
